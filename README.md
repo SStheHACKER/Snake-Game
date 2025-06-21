@@ -15,6 +15,8 @@ In this hardware version:
 - The game is fully synthesized and deployed on an **FPGA development board**, such as the Xilinx Basys-3 or equivalent.
 
 ---
+![image](https://github.com/user-attachments/assets/4af22d70-c7c0-419a-9734-cc1093ad8eee)
+
 
 ## 🧩 Features
 
