@@ -15,7 +15,10 @@ In this hardware version:
 - The game is fully synthesized and deployed on an **FPGA development board**, such as the Xilinx Basys-3 or equivalent.
 
 ---
-![image](https://github.com/user-attachments/assets/4af22d70-c7c0-419a-9734-cc1093ad8eee)
+![image](https://github.com/user-attachments/assets/4af22d70-c7c0-419a-9734-cc1093ad8eee)\
+
+![image](https://github.com/user-attachments/assets/378c2e24-a1ec-4520-b746-af95b338d7f6)
+
 
 
 ## 🧩 Features
@@ -37,6 +40,7 @@ In this hardware version:
 - Outputs the game frame via **VGA at 640x480 resolution**.
 - Grid, snake, and fruit are rendered in different colors.
 - Pixel mapping and synchronization handled in hardware.
+- It uses only 5000 LUTs with 48 BRAMs(BRAms used for Start and End Screens).
 
 ---
 
@@ -49,6 +53,3 @@ In this hardware version:
 - 7-Segment Display or LEDs for optional score display
 
 ---
-
-## 📁 Project Structure
-
