@@ -1,12 +1,52 @@
-# Snake-Game
-Implementation of the classic Snake Game, developed on an FPGA (Field-Programmable Gate Array) . This project demonstrates the implementation of a hardware version of the timeless Snake game, utilizing Verilog for the core game logic, including a random number generator for fruit placement and snake movement.
+# 🐍 Snake Game on FPGA
 
-Features
+This project implements the classic **Snake Game** entirely in hardware using an **FPGA**. Designed using **Verilog**, it showcases a hardware-level approach to game development by interfacing with a VGA display and including a custom-built **random number generator** for dynamic fruit placement.
 
-Classic Snake Gameplay: Enjoy the timeless gameplay of Snake directly on your FPGA device.
+---
 
-Verilog Implementation: Core game logic, including snake movement and fruit generation, is implemented using Verilog, demonstrating efficient hardware programming techniques.
+## 🚀 Overview
 
-Random Number Generator: Features a custom Verilog-based random number generator for unpredictable fruit placement.
+The Snake Game is a classic arcade game in which the player controls a snake that grows longer as it consumes randomly placed fruits. The game ends when the snake collides with itself or the game boundary.
 
-VGA Output: The game's visual output is displayed on a computer monitor through a VGA interface, offering a seamless gaming experience.
+In this hardware version:
+- All game logic is implemented using **Verilog HDL**.
+- A **custom random number generator** is used for fruit placement.
+- **VGA output** allows the game to be displayed on a monitor in real time.
+- The game is fully synthesized and deployed on an **FPGA development board**, such as the Xilinx Basys-3 or equivalent.
+
+---
+
+## 🧩 Features
+
+### 🎮 Classic Snake Gameplay
+- Control a growing snake on a 2D grid.
+- Collect randomly generated fruits.
+- Avoid collisions with walls or the snake’s own body.
+
+### 🧠 Verilog-Based Game Logic
+- All control and display logic written in **pure Verilog**, demonstrating digital design and finite state machine (FSM) principles.
+- Handles snake movement, collision detection, and fruit consumption.
+
+### 🎲 Random Number Generator (RNG)
+- Implements a **Linear Feedback Shift Register (LFSR)**-based RNG in Verilog for fruit spawning.
+- Ensures fruits are placed at random grid positions without overlapping the snake.
+
+### 🖥️ VGA Display Interface
+- Outputs the game frame via **VGA at 640x480 resolution**.
+- Grid, snake, and fruit are rendered in different colors.
+- Pixel mapping and synchronization handled in hardware.
+
+---
+
+## 🔧 Hardware Requirements
+
+- FPGA Development Board (e.g., Digilent Basys-3 or Nexys A7)
+- VGA-compatible Monitor and Cable
+- Clock frequency: 100 MHz (can be scaled using clock dividers)
+- Push Buttons for directional control (Up, Down, Left, Right)
+- 7-Segment Display or LEDs for optional score display
+
+---
+
+## 📁 Project Structure
+
