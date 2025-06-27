@@ -19,6 +19,8 @@ In this hardware version:
 
 ![image](https://github.com/user-attachments/assets/378c2e24-a1ec-4520-b746-af95b338d7f6)
 
+## Modules
+### `debouncer_delayed.v` : Implementation of a debouncer using a finite state machine and a parameterized delay timer for stable signal detection from the button.
 
 
 ## 🧩 Features
