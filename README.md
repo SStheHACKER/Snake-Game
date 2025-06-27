@@ -12,7 +12,7 @@ In this hardware version:
 - All game logic is implemented using **Verilog HDL**.
 - A **custom random number generator** is used for fruit placement.
 - **VGA output** allows the game to be displayed on a monitor in real time.
-- The game is fully synthesized and deployed on an **FPGA development board**, such as the Xilinx Basys-3 or equivalent.
+- The game is fully synthesized and deployed on an **FPGA development board**, such as the Xilinx Nexys A7 100T or equivalent.
 
 ---
 ![image](https://github.com/user-attachments/assets/4af22d70-c7c0-419a-9734-cc1093ad8eee)\
